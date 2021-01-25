@@ -1,0 +1,13 @@
+<div>
+  <ul>
+    <% @recipes.each_with_index do |recipe, index| %>
+      <li>
+        <%= "#{recipe.name}, #{recipe.description}" %>
+      </li>
+    <% end %>
+  </ul>
+
+  <div>
+    
+  </div>
+</div>
